@@ -127,6 +127,6 @@ ng serve
 
 4. Open your browser and go to `http://localhost:4200/`.
 
-```
+
 
 ```
