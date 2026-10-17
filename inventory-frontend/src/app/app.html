@@ -1,0 +1,50 @@
+<div style="padding: 20px; font-family: Arial, sans-serif;">
+  <h2>Inventory Management</h2>
+
+  <!-- Product Form -->
+  <div style="margin-bottom: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 5px;">
+    <h3>Add New Product</h3>
+    <form (ngSubmit)="addProduct()">
+      <input type="text" [(ngModel)]="newProduct.name" name="name" placeholder="Product Name" required style="margin: 5px; padding: 8px;">
+      <input type="text" [(ngModel)]="newProduct.sku" name="sku" placeholder="SKU Code" required style="margin: 5px; padding: 8px;">
+      <input type="text" [(ngModel)]="newProduct.category" name="category" placeholder="Category" required style="margin: 5px; padding: 8px;">
+      <input type="number" [(ngModel)]="newProduct.price" name="price" placeholder="Price" required style="margin: 5px; padding: 8px;">
+      <input type="number" [(ngModel)]="newProduct.quantity" name="quantity" placeholder="Quantity" required style="margin: 5px; padding: 8px;">
+      <select [(ngModel)]="newProduct.status" name="status" style="margin: 5px; padding: 8px;">
+        <option value="In Stock">In Stock</option>
+        <option value="Out of Stock">Out of Stock</option>
+      </select>
+      <button type="submit" style="padding: 8px 15px; background-color: #28a745; color: white; border: none; cursor: pointer;">Add Product</button>
+    </form>
+  </div>
+
+  <!-- Product Table -->
+  <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th>ID</th>
+        <th>SKU</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.sku }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.category }}</td>
+        <td>{{ product.price }}</td>
+        <td>{{ product.quantity }}</td>
+        <td>{{ product.status }}</td>
+        <td>
+          <button (click)="deleteProduct(product.id)" style="background-color: #dc3545; color: white; border: none; padding: 5px 10px; cursor: pointer;">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
