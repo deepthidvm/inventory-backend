@@ -45,8 +45,9 @@ A full-stack Inventory Management application built with a **Go (Golang)** backe
 ![Delete Step 3](screenshots/Product_delete_3.jpg)
 
 ### 7. Database -Table and Data
-![Products Table Data](screenshots/products_table_data.png)
 ![Products Table View](screenshots/products_table.jpg)
+![Products Table Data](screenshots/products_table_data.png)
+
 
 ---
 
