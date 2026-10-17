@@ -19,8 +19,6 @@ A full-stack Inventory Management application built with a **Go (Golang)** backe
 
 ### 1. Dashboard & Product Listing
 ![Product Listing Page](screenshots/product_listing%20page.jpg)
-![Products Table Data](screenshots/products_table_data.png)
-![Products Table View](screenshots/products_table.jpg)
 
 ### 2. Search & Filtering
 ![Search by Name / SKU](screenshots/Search_product_name_sku.png)
@@ -45,6 +43,10 @@ A full-stack Inventory Management application built with a **Go (Golang)** backe
 ![Delete Step 1](screenshots/Product_delete_1.jpg)
 ![Delete Step 2](screenshots/Product_delete_2.jpg)
 ![Delete Step 3](screenshots/Product_delete_3.jpg)
+
+### 7. Database -Table and Data
+![Products Table Data](screenshots/products_table_data.png)
+![Products Table View](screenshots/products_table.jpg)
 
 ---
 
