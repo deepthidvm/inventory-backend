@@ -138,7 +138,7 @@ export class AppComponent implements OnInit {
         this.products = data || [];
         this.filteredProducts = data || [];
         this.extractCategories();
-        this.cdr.detectChanges(); // UI അപ്ഡേറ്റ് ചെയ്യാൻ
+        this.cdr.detectChanges(); // UI update
       },
       error: (err) => {
         console.error('Error fetching products:', err);
