@@ -1,4 +1,3 @@
-
 # Inventory Management System
 
 A full-stack Inventory Management application built with a **Go (Golang)** backend and an **Angular** frontend.
@@ -48,7 +47,6 @@ A full-stack Inventory Management application built with a **Go (Golang)** backe
 ![Products Table View](screenshots/products_table.jpg)
 ![Products Table Data](screenshots/products_table_data.png)
 
-
 ---
 
 ## 🛠 Tech Stack
@@ -69,64 +67,34 @@ inventory-backend/
 ├── go.mod                # Go module dependencies
 └── README.md             # Project documentation
 
-```
+🚀 Getting Started
+Prerequisites
+Go (v1.18 or higher)
 
----
+Node.js & npm
 
-## 🚀 Getting Started
+Angular CLI
 
-### Prerequisites
+Backend Setup
+Navigate to the backend folder:
 
-* Go (v1.18 or higher)
-* Node.js & npm
-* Angular CLI
-
----
-
-### Backend Setup
-
-1. Navigate to the backend folder:
-```bash
+Bash
 cd inventory-backend
+Run the Go server:
 
-```
-
-
-2. Run the Go server:
-```bash
+Bash
 go run main.go
+Frontend Setup
+Navigate to the frontend directory:
 
-```
-
-
-
----
-
-### Frontend Setup
-
-1. Navigate to the frontend directory:
-```bash
+Bash
 cd inventory-frontend
+Install dependencies:
 
-```
-
-
-2. Install dependencies:
-```bash
+Bash
 npm install
+Start the Angular development server:
 
-```
-
-
-3. Start the Angular development server:
-```bash
+Bash
 ng serve
-
-```
-
-
-4. Open your browser and go to `http://localhost:4200/`.
-
-
-
-```
+Open your browser and go to http://localhost:4200/.
