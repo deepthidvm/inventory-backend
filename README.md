@@ -65,9 +65,7 @@ inventory-backend/
 ├── go.mod                # Go module dependencies
 └── README.md             # Project documentation
 
-തീർച്ചയായും! കോപ്പി ചെയ്ത് നേരെ VS Code-ൽ പേസ്റ്റ് ചെയ്യാൻ പാകത്തിലുള്ള **പൂർണ്ണമായ `README.md` ഫയൽ** താഴെ നൽകുന്നു. ഒറ്റ ക്ലിക്കിൽ കോപ്പി ചെയ്ത് യൂസ് ചെയ്യാം:
-
-```markdown
+```
 # Inventory Management System
 
 A full-stack Inventory Management application built with a **Go (Golang)** backend and an **Angular** frontend.
